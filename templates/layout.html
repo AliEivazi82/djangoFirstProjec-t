@@ -4,6 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}{% endblock title %}</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #131713;
+        }
+        
+        .message_container {
+            width: 100%;
+        }
+        
+        .messages {
+            color: #059f08;
+            list-style: none;
+            padding: 5px 20px;
+            margin: 5px 0;
+            font-size: 20px;
+        }
+
+        .messages:hover {
+            background-color: #333733;
+        }
+        
+    </style>
 </head>
 <body>
 
